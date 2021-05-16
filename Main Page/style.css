@@ -41,3 +41,8 @@ section {
   background-color: yellow;
   color: blue;
 }
+
+footer {
+  display: block;
+  text-align: center;
+}
