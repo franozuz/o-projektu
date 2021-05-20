@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300;400;500;700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: KoHo, sans-serif;
+  font-size: 3em;
+}
+
+p {
+  font-family: KoHo, sans-serif;
+}
+
+.about {
+  max-width: 50%;
+}
