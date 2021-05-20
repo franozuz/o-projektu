@@ -60,3 +60,16 @@ footer {
     'one one one one three footer'
     'one one one one three footer';
 }
+
+a {
+  font-family: KoHo, sans-serif;
+  font-size: 30 px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
