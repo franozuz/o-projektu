@@ -12,13 +12,92 @@ html {
 
 h1 {
   font-family: KoHo, sans-serif;
-  font-size: 3em;
+  font-size: 4rem;
 }
 
 p {
   font-family: KoHo, sans-serif;
+  color: #fff;
+  font-size: 2vw;
 }
 
-.about {
-  max-width: 50%;
+#grid {
+  font-size: 1, 5rem;
 }
+
+#grid div:nth-child(1) {
+  background: blue;
+  grid-area: one;
+}
+
+#grid div:nth-child(2) {
+  background: red;
+  grid-area: two;
+}
+
+#grid div:nth-child(3) {
+  background: yellow;
+  grid-area: three;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: KoHo, sans-serif;
+  color: #fff;
+}
+
+footer {
+  display: grid;
+  background: #fff;
+  font-size: 20px;
+  font-family: KoHo, sans-serif;
+}
+
+#grid div,
+footer {
+  padding: 10px;
+  box-shadow: 0 0 0 10px #000;
+}
+
+#grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+  grid-auto-rows: 4em;
+  grid-template-areas:
+    'one one one one two two'
+    'one one one one two two'
+    'one one one one two two'
+    'one one one one two two'
+    'one one one one three footer'
+    'one one one one three footer'
+    'one one one one three footer'
+    'one one one one three footer'
+    'one one one one three footer'
+    'one one one one three footer';
+}
+
+a {
+  font-family: KoHo, sans-serif;
+  font-size: 30 px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.githubIcon {
+  max-width: 90%;
+  margin-left: 6%;
+}
+
+/* .githubIcon:hover {
+  filter: invert(100%) !important;
+} */
