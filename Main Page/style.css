@@ -9,6 +9,25 @@ body {
   margin: 0;
 }
 
+.menu {
+  line-height: 3;
+  font-family: KoHo, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 1em;
+}
+
+li {
+  display: inline;
+  padding-right: 2em;
+}
+
 section {
   padding: 50px 15%;
   padding-top: 50px;

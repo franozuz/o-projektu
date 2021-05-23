@@ -10,6 +10,29 @@ body {
   margin: 0;
 }
 
+.menu {
+  line-height: 2;
+  font-family: KoHo, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+p {
+  font-family: KoHo, sans-serif;
+  color: #fff;
+  font-size: 2vw;
+}
+
 #grid {
   font-size: 1, 5rem;
 }
@@ -27,9 +50,17 @@ body {
 #grid div:nth-child(3) {
   background: yellow;
   grid-area: three;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-h1,
+h1 {
+  font-size: 5em;
+  font-family: KoHo, sans-serif;
+  color: #fff;
+}
+
 footer {
   display: grid;
   background: #fff;
@@ -87,9 +118,7 @@ body {
   background-color: black;
 }
 
-.menu {
-  line-height: 0.8;
-  font-family: KoHo, sans-serif;
-  font-size: 20px;
-  color: white;
+.githubIcon {
+  max-width: 90%;
+  margin-left: 6%;
 }
