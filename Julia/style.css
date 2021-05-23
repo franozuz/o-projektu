@@ -73,3 +73,23 @@ a:hover {
   background-color: #ddd;
   color: black;
 }
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.wikilink:visited {
+  color: blue;
+}
+
+body {
+  background-color: black;
+}
+
+.menu {
+  line-height: 0.8;
+  font-family: KoHo, sans-serif;
+  font-size: 20px;
+  color: white;
+}
